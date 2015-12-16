@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mdscript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Testingfixes" xsi:noNamespaceSchemaLocation="http://utnas/~unitrader/XRebirthxsds/md.xsd">
+  <cues>
+    <cue name="Enable_New_Weapons" onfail="cancel">
+      <conditions>
+        <check_value value="true" comment="switch for deactivating"/>
+      </conditions>
+      <delay exact="10s"/>
+      <actions>
+        <append_to_list name="md.$WeaponUpgradetraderLists.{1}" exact="[ware.upg_pla_weapon_railgun_mk1, 1, 1, 100]"/>
+        <append_to_list name="md.$WeaponUpgradetraderLists.{1}" exact="[ware.upg_pla_weapon_plasma_charging_mk1, 1, 1, 100]"/>
+      </actions>
+    </cue>
+  </cues>
+</mdscript>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Last exported: 17.11.2015 14:07:11-->
+<diff>
+  <add sel="/wares">
+  <ware id="upg_pla_weapon_railgun_mk1" name="'Railgun MK1'" description="'Enabled by UniTrader" transport="equipment" size="medium" volume="1">
+    <price min="876000" average="1030000" max="1185000" />
+    <component ref="weapon_player_railgun_mk1_macro" amount="1" />
+  </ware>
+  <ware id="upg_pla_weapon_plasma_charging_mk1" name="'Plasma Charging MK1'" description="'Enabled by UniTrader" transport="equipment" size="medium" volume="1">
+    <price min="876000" average="1030000" max="1185000" />
+    <component ref="weapon_player_plasma_charging_mk1_macro" amount="1" />
+  </ware>
+  </add>
+</diff>
