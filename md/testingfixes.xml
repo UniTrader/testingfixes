@@ -9,6 +9,7 @@
       <actions>
         <append_to_list name="md.$WeaponUpgradetraderLists.{1}" exact="[ware.upg_pla_weapon_railgun_mk1, 1, 1, 100]"/>
         <append_to_list name="md.$WeaponUpgradetraderLists.{1}" exact="[ware.upg_pla_weapon_plasma_charging_mk1, 1, 1, 100]"/>
+        <append_to_list name="md.$ArmsDealerLists.{1}" exact="[ware.spe_ammo_torpedo_02, 10, 10, 100]"/>
       </actions>
     </cue>
   </cues>
